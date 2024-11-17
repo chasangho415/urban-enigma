@@ -1,4 +1,6 @@
-<h1 align="center"> 타이타닉 데이터셋을 이용해 가족과 탑승했을 경우 높은 등급을 선택할 것이라고 생각해 그에 관한 모델을 만들었다. </h1>
+<h1 align="center"> 로지스틱 회귀
+모델을 사용하여 타이타닉 데이터셋에서 승객의 생존 여부를 예측하는 모델을 만들었다.  </h1>
+이 모델은 이진 분류 문제를 해결하는 데 사용됩니다. 구체적으로, 타이타닉 데이터셋에서 승객의 특성을 기반으로 그 승객이 생존했는지(1), 사망했는지(0)를 예측한다.
 
 <!-- <br>
 <div>
@@ -12,28 +14,16 @@
 .info()
 .value_counts()
 
-## 클래스 별로 평균 가격 조사
-
-
-
-## 같이 탑승한 수 탐색
-
-
-
 ## 개발 환경
-- Windows 10 (Recommended)
 - Windows 11
-
  
-
 ## 설치
  
 ### Using pip
 ```bash
 python -m venv .titanic
 .\.titanic.\Scripts\activate
-
-
+pip install jupyter
+pip install pandas matplotlib seaborn numpy
 pip install pykinect-recorder
-pykinect
 ```
